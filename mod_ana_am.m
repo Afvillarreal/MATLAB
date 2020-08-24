@@ -2,6 +2,7 @@ clc, clear all, close all
 
 %Modulacion en AM
 %----- DATA IN ------
+
 %datos analogos
 Ax = 2;     %amplitud
 fx = 3400;  %frecuencia
@@ -17,6 +18,7 @@ m = 0.4; % al valor de m esta entre 0 y 1 y mayor a 0
 
 
 %----- PROCCES ------
+
 %carrier
 %T = 1/f; periodo igual que cpc/fc 
 tc = linspace(0,cpc/fc,500);
